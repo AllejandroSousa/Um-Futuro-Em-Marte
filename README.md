@@ -36,5 +36,7 @@ bissecao(str(fs), 200, 300, 1e-5, 25)
 newton(200, str(fs), str(df), 1e-5, 30)
 ```
 ## Gráfico plotado
-O gráfico plotado serve para descobrirmos em que intervalo está a nossa raiz e utilizarmos em nosso método numérico. Pelo gráfico, podemos perceber que se encontra entre 200 e 300.
+O gráfico plotado serve para descobrirmos em que intervalo está a nossa raiz e utilizarmos em nosso método numérico. Pelo gráfico, 
+podemos perceber que se encontra entre 200 e 300.
+
 ![Gráfico de Crescimento Populacional](crescimento_populacional_plot.png)
