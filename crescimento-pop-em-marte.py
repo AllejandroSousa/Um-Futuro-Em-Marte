@@ -40,7 +40,9 @@ fs,fn = eq_population(capac, popi, taxa, popt)
 t = np.linspace(1,500)
 
 plt.plot(t, fn(t),t, 0*t);
-
+plt.xlabel('Tempo (t)')
+plt.ylabel('População (p)')
+plt.savefig('crescimento_populacional_plot.png')
 plt.show()
 
 def bissecao(f,a,b,tol,N):
